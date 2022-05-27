@@ -1,0 +1,1 @@
+nasm src\boot_sector.asm -o bin\boot_sector
