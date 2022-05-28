@@ -61,7 +61,7 @@ VIDEO_MEMORY equ 0xb8000    ; Address of video memory
 print:
     pusha                   ; Saves state to stack
     mov edx, VIDEO_MEMORY   ; Set a variable for the position in video memory
-    add edx, 1336
+    add edx, 1440
 
 print_loop:
     mov al, [ebx]           ; Get the character to print

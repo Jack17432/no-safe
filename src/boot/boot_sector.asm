@@ -11,9 +11,9 @@ call switch_to_pm
 
 jmp $ ; loop
 
-%include "src/boot_inc.asm"
-%include "src/boot_gdt.asm"
-%include "src/boot_32bit.asm"
+%include "src/boot/boot_inc.asm"
+%include "src/boot/boot_gdt.asm"
+%include "src/boot/boot_32bit.asm"
 
 [bits 32] ; Move to 32 bit mode
 BEGIN_PM:
