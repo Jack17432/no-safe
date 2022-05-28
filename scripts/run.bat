@@ -1,3 +1,2 @@
-nasm src/boot/boot_sector.asm -o bin/boot_sector
-timeout 1
-qemu bin/boot_sector
+call "scripts/build.bat"
+qemu-system-i386 -fda bin/os-image.bin

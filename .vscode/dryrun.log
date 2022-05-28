@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory `z:/no-safe'
+make.exe: Leaving directory `z:/no-safe'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+
