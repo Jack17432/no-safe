@@ -18,6 +18,18 @@ print_done_16:
     popa            ; restores state from stack
     ret
 
+print_nl_16:
+    pusha
+    
+    mov ah, 0x0e
+    mov al, 0x0a ; newline char
+    int 0x10
+    mov al, 0x0d ; carriage return
+    int 0x10
+    
+    popa
+    ret
+
 disk_load:
     pusha           ; saves state to the stack
     push dx         ; save to check for disk read error | bios will change dx so we need to save it for later and since it its the
@@ -51,8 +63,20 @@ sectors_error:
 
 hang: jmp $
 
-DISK_ERROR: db "Disk read error", 0
-SECTORS_ERROR: db "Incorrect number of sectors read", 0
+load_kernel:
+    mov bx, MSG_LOAD_KERNEL
+    call print_16
+    call print_nl_16
+
+    mov bx, KERNEL_OFFSET
+    mov dh, 2
+    mov dl, [BOOT_DRIVE_LOC]
+    call disk_load
+    ret
+
+MSG_LOAD_KERNEL db "Loading kernel into memory", 0
+DISK_ERROR db "Disk read error", 0
+SECTORS_ERROR db "Incorrect number of sectors read", 0
 
 [bits 32]                   ; 32 bit mode
 
@@ -61,7 +85,7 @@ VIDEO_MEMORY equ 0xb8000    ; Address of video memory
 print:
     pusha                   ; Saves state to stack
     mov edx, VIDEO_MEMORY   ; Set a variable for the position in video memory
-    add edx, 1440
+    add edx, 0
 
 print_loop:
     mov al, [ebx]           ; Get the character to print
