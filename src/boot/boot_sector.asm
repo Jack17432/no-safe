@@ -30,12 +30,16 @@ BEGIN_PM:
     mov ebx, MSG_PROT_MODE
     call print
     call KERNEL_OFFSET
+
+    mov ebx, MSG_KERNEL_ENDED
+    call print
     jmp $
 
 BOOT_DRIVE_LOC      db 0
 MSG_REAL_MODE       db "Started in 16-bit real", 0
 MSG_KERNEL_LOADED   db "Kernel Loaded", 0
 MSG_PROT_MODE       db "Loaded 32-bit protected mode", 0
+MSG_KERNEL_ENDED    db "Kernel Ended", 0
 
 times 510-($-$$) db 0 ; padding for rest of boot sector
 dw 0xAA55

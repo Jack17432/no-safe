@@ -1,0 +1,1 @@
+Just making an os that alowes us to do some dum stuff that all other os wont let us bc its a 'security risk'.
