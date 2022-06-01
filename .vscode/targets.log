@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Sun May 29 14:56:51 2022
+# Make data base, printed on Wed Jun 01 14:26:52 2022
 
 # Variables
 
@@ -37,15 +37,14 @@ SHELL := sh.exe
 # environment
 WINDIR = C:\WINDOWS
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+VSCO 
+DE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
 ONEDRIVE = C:\Users\Christopher Graham\OneDrive
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile
 MAKEFILE_LIST := 
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 TMP = C:\Users\CHRIST~1\AppData\Local\Temp
 # environment
@@ -55,7 +54,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0f8ec49f-efc0-4169-a166-b5e255ec8f8e-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bd937bf6-7022-4058-ad0a-bdd7811b42f5-sock
 # environment
 VSCODE_CWD = C:\Users\Christopher Graham\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -77,13 +76,14 @@ NUMBER_OF_PROCESSORS = 12
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # default
-.FEATURES := target-specific order-only second-expansion else-if archives
+.FEATURES := target-specific order-only second-e 
+xpansion else-if archives
 # environment
 CABAL_DIR = C:\cabal
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3376_EMRCQJSCSOPUIZRH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_24368_SNUOHHNPTRYHDHPY
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -95,8 +95,7 @@ DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERNAME = 
- Christopher Graham
+USERNAME = Christopher Graham
 # environment
 PUBLIC = C:\Users\Public
 # environment
@@ -112,7 +111,8 @@ LOGONSERVER = \\THE-SMALL-DESKT
 # environment
 ONEDRIVECONSUMER = C:\Users\Christopher Graham\OneDrive
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+VSCODE_HANDLES_UNCAUGHT_E 
+RRORS = true
 # environment
 USERDOMAIN = THE-SMALL-DESKT
 # default
@@ -133,7 +133,8 @@ LOCALAPPDATA = C:\Users\Christopher Graham\AppData\Local
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make.exe
-# environment
+# e 
+nvironment
 PROCESSOR_ARCHITEW6432 = AMD64
 # default
 .VARIABLES := 
@@ -190,13 +191,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 25
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 3376
+VSCODE_PID = 24368
 # environment
 USERDOMAIN_ROAMINGPROFILE = THE-SMALL-DESKT
 # variable set hash-table stats:
-# Load=91/1024=9%, Rehash=0, Collisions=9/108=8%
+# Load=89/1024=9%, Rehash=0, Collisions=9/106=8%
 
 # Pattern-specific Variable Values
 
@@ -204,33 +203,36 @@ USERDOMAIN_ROAMINGPROFILE = THE-SMALL-DESKT
 
 # Directories
 
-# : 
- could not be stat'd.
-# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1653538985): 13 files, no impossibilities.
+# : could not be stat'd.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, 
+ mtime 1653538985): 13 files, no impossibilities.
 # C:\Program Files\qemu (key C:/Program Files/qemu, mtime 1653554342): 157 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1622913053): 30 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1653027821): 171 files, no impossibilities.
-# . (key z:/no-safe, mtime 1653715116): 8 files, no impossibilities.
-# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1644448855): 10 files, no impossibilities.
+# . (key z:/no-safe, mtime 1654050284): 9 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corpor 
+ation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1644448855): 10 files, no impossibilities.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1653709690): 169 files, no impossibilities.
 # C:\Program Files\NASM\ (key C:/Program Files/NASM/, mtime 1653537607): 18 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1645948603): 5 files, no impossibilities.
-# C:\Users\Christopher Graham\AppData\Local\Microsoft\WindowsApps (key C:/Users/Christopher Graham/AppData/Local/Microsoft/WindowsApps, mtime 1653781814): 24 files, no impossibilities.
+# C:\Users\Christopher Graham\AppData\Local\Microsoft\WindowsApps (key C:/Users/Christopher Graham/AppData/Local/Microsoft/WindowsApps, mtime 1654048735): 24 files, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1653027867): 126 files, no impossibilities.
-# C:\Users\Christopher Graham\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Christopher  
-Graham/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1653271147): 4 files, no impossibilities.
-# C:\Users\Christopher Graham\AppData\Local\Programs\Python\Python310\ (key C:/Users/Christopher Graham/AppData/Local/Programs/Python/Python310/, mtime 1652267929): 18 files, no impossibilities.
+# C:\Users\Christopher Graham\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Christopher Graham/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1653271147): 4 files, no impossibilities.
+# C:\Users\Christo 
+pher Graham\AppData\Local\Programs\Python\Python310\ (key C:/Users/Christopher Graham/AppData/Local/Programs/Python/Python310/, mtime 1652267929): 18 files, no impossibilities.
 # C:\Users\Christopher Graham\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/Christopher Graham/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1652267929): 5 files, no impossibilities.
 # C:\ProgramData\DockerDesktop\version-bin: could not be stat'd.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1651549515): 8 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1653539532): 2987 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mt 
+ime 1651549515): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1654047056): 2987 files, no impossibilities.
 # C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1653712217): 7 files, no impossibilities.
 # C:\ghcup\bin (key C:/ghcup/bin, mtime 1651735988): 94 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1644448443): 5 files, no impossibilities.
-# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1653712629): 5 files, no impossibilities.
+# C:\Program Fil 
+es (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1653712629): 5 files, no impossibilities.
 
-# 3864 files, no impossibilities in 23 directories.
+# 3865 files, no impossibilities in 23 directories.
 
 # Implicit Rules
 
@@ -245,13 +247,13 @@ all:
 #  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
-# Load= 
-0/32=0%, Rehash=0, Collisions=0/0=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modificat 
+ion time never checked.
 #  File has not been updated.
 
 # Not a target:
@@ -272,7 +274,8 @@ makefile:
 
 # Not a target:
 GNUmakefile:
-#  A default, MAKEFILES, or -include/sinclude makefile.
+#  A default, MAK 
+EFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
@@ -290,11 +293,12 @@ GNUmakefile:
 
 # # of strings in strcache: 0
 # # of strcache buffers: 0
-# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
-# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
-
-# Finished Make data base on Sun May 29 14:56:51 2022
-
- 
+# strcache size: total = 0 / max = 0 / min = 4096 / avg 
 make.exe: *** No rule to make target `all'.  Stop.
 
+ = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Wed Jun 01 14:26:52 2022
+
+ 
